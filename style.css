@@ -1,0 +1,163 @@
+
+a:hover{
+    text-decoration: none;
+}
+nav .navbar-brand{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+nav  {
+    background-color: #e74c3c;
+}
+nav .btn{
+    color: white;
+    border-color: white;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2.section-head:after{
+    background: #e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+    
+}
+#header{
+    color: white;
+    background-color:#e74c3c  ;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: white;
+    padding: 15px 15px;
+    display: block;
+} 
+#menu li a:hover{
+    background: #c0392b; 
+    text-decoration: none;
+} 
+#banner{
+    background: url('images/banner.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+.banner-title {
+    padding-top: 5rem;
+}
+.banner-title h1{
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner-title p.lead{
+    color: white;
+    background: rgba(231, 76, 60, 0.7);
+    padding: 10px;
+}
+.service-box{
+    text-align: center;
+}
+#testimonials{
+    background: url('images/testimonial-bg.jpg') no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    color: white;
+}
+#tesimonials::before{
+    background-color: rgba(52, 73, 94, 0.7);
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.testimonial img{
+    border-radius: 50%;
+}
+.footer{
+    background: rgb(52, 73, 94);
+    color: white;
+}
+.footer li{
+    list-style: lower-alpha;
+}
+.footer li a{
+    color: white;
+}
+.footer li a:hover{
+    text-decoration: none;
+}
+.copyright{
+    background: rgb(36, 49, 63);
+    color: white;
+    font-weight: bold;
+    padding: 15px 0;
+}
+.recentnews a{
+    color: #e74c3c;
+}
+
+@media(max-width: 768px ){
+    #logo{
+        text-align: center;
+        margin: 10px 0;
+    }
+    #menu{
+        text-align: center;
+    }
+    .testimonial{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .service-box{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .recentnews{
+        text-align: center;
+    }
+    .news-post{
+        margin-bottom: 30px;
+    }
+    .section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .banner-title{
+        padding-top: 0;
+    }
+    .banner-title h1{
+        padding-top: 0;
+        font-size: 1.7rem;
+    }
+    .foot{
+        margin-bottom: 30px;
+    }
+  
+}
+@media (max-width:992px) {
+    .news-post{
+        margin-bottom: 30px;
+    }
+}
